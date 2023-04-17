@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/git@github.com:byrondray/face-recognition-brain.git/static/css/main.6170c43b.css",
+    "main.js": "/git@github.com:byrondray/face-recognition-brain.git/static/js/main.b157f663.js",
+    "index.html": "/git@github.com:byrondray/face-recognition-brain.git/index.html",
+    "main.6170c43b.css.map": "/git@github.com:byrondray/face-recognition-brain.git/static/css/main.6170c43b.css.map",
+    "main.b157f663.js.map": "/git@github.com:byrondray/face-recognition-brain.git/static/js/main.b157f663.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6170c43b.css",
+    "static/js/main.b157f663.js"
+  ]
+}
