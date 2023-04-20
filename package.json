@@ -1,9 +1,9 @@
 {
   "name": "facerecognitionbrain",
-  "homepage": "git@github.com:byrondray/face-recognition-brain.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.27.2",
     "clarifai": "^2.9.1",
     "gh-pages": "^5.0.0",
     "particles-bg": "^2.5.5",
@@ -14,8 +14,6 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
