@@ -64,7 +64,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://lit-headland-89881.herokuapp.com/imageurl', {
+      fetch('https://face-recognition-brain-pqfx.onrender.com/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -75,7 +75,7 @@ class App extends Component {
       .then(response => {
         console.log('hi', response)
         if (response) {
-          fetch('https://lit-headland-89881.herokuapp.com/:3000image', {
+          fetch('https://face-recognition-brain-pqfx.onrender.com/:3000image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
