@@ -75,7 +75,7 @@ class App extends Component {
       .then(response => {
         console.log('hi', response)
         if (response) {
-          fetch('https://smart-brain-api-harv.onrender.com/:3000image', {
+          fetch('https://smart-brain-api-harv.onrender.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
